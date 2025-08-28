@@ -6,8 +6,8 @@ import winsound
 from ultralytics import YOLO
 
 
-video_path = r"C:\Users\Anand Shankar\PycharmProjects\PythonProject\YOLO\FILE VIDEO\ATM.mp4"
-save_folder = r"C:\Users\Anand Shankar\PycharmProjects\PythonProject\YOLO\snapshots"
+video_path = r"C:\Users\PycharmProjects\PythonProject\YOLO\FILE VIDEO\ATM.mp4"
+save_folder = r"C:\Users\PycharmProjects\PythonProject\YOLO\snapshots"
 os.makedirs(save_folder, exist_ok=True)
 
 motion_cooldown = 5
@@ -65,3 +65,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
